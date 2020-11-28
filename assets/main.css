@@ -1,0 +1,22 @@
+h1{
+	font-family: helvetica;
+	font-size: 72px;
+}
+
+p{
+	font-family: helvetica;
+	font-size: 48px;
+	width: 80vw;
+	padding-left: 10vw;
+}
+
+@media (max-width: 800px) {
+	h1{
+		font-size: 8vw;
+	}
+
+	p{
+		font-family: timesnewroman;
+		font-size: 4vw;
+	}
+}
